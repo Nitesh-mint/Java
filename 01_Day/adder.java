@@ -1,4 +1,3 @@
-package Day1;
 public class adder {
     public static void main(String[] args){
         int first = 10;
