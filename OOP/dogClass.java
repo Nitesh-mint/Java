@@ -1,7 +1,7 @@
 //created a class.
 class dog{ 
     //instance variables.
-        int size; 
+        static int size; 
         String breed;
         String name;
     // create a bark method
