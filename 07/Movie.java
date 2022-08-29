@@ -1,4 +1,3 @@
-package OOP;
 class movie {
     String title;
     String genre;
