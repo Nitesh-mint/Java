@@ -15,18 +15,17 @@ public class eleven {
                 System.out.println(input+ " is not valid.");
                 break;
             }
-        }
-
-        for(char x : vowel){
-            if(input == x){
-                System.out.println(input + " is Vowel." );
-                break;
-            }
             else{
-                System.out.println(input+" is consonant.");
-                break;
+                for(char y: vowel){
+                    if(input == y){
+                        System.out.println("The letter is valid.");
+                    }
+                    else{
+                        System.out.println("The letter is consonant.");
+                    }
+                }
+            }
+
             }
         }
-        
-    }
 }
