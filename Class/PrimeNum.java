@@ -15,7 +15,7 @@ public class PrimeNum{
 			++divider;
 		}
 		if(prime){
-			System.out.println(userNumber);
+			System.out.println("Prime");
 		}
 		else{
 			System.out.println("Not prime.");
