@@ -1,16 +1,20 @@
 class instanceVar{
     public String name = "";//declared instance variables
     void Nitesh(){
-        this.name = "Nitesh";
-        System.out.println(this.name);
+        name = "Nitesh";
+        System.out.println(name);
     }
 }
 
 class staticVar{
-    public static  String thar = ""; // declared static variable
+    public static  String thar = ""; // declared static variable\
+
+    //Thar method 
     void Thar(){
         staticVar.thar = " Raya"; //accessing static varaible
+        thar = "Nothing";
         System.out.println(staticVar.thar);
+        
     }
 }
 

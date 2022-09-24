@@ -4,6 +4,7 @@ class Const{
     String girlfriend;
     Const(){
         System.out.println("Constructing Box.");
+        System.out.println("This is printed automatically.");
         name = "Briyan";
         age = 21;
         girlfriend = "Brikiria";
@@ -19,6 +20,5 @@ public class Constructor {
         
         Const constructor1 = new Const();
         constructor1.name(); // calling methods.
-
     }
 }
