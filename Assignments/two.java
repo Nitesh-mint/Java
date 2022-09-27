@@ -9,6 +9,7 @@ public class two {
         System.out.println("Give a word as input:");
         // storing string
         input = sc.next();
+        sc.close();
 
         //now using StringBuilder Function
         StringBuilder reverse = new StringBuilder();
