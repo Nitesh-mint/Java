@@ -13,10 +13,12 @@ public class Demo{
 		for(i=0;i<n;i++){
 			array[i] = in.nextInt();
 		}
-		
+		in.close();
+
 		System.out.println("Array are: ");
-		for(i=0; i<n;i++)
-		System.out.println(array[i]);
+		for(i=0; i<n;i++){
+			System.out.println(array[i]);
+		}
 	}
 }
 	

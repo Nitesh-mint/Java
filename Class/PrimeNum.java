@@ -1,6 +1,4 @@
 import java.util.Scanner;
-
-import javax.swing.text.StyledEditorKit;
 public class PrimeNum{
 	public static void main(String args[]){
 		Scanner sc = new Scanner(System.in);
