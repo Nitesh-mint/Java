@@ -7,7 +7,6 @@ class constructor{
     }
 }
 
-
 public class parameterized_constructor {
     public static void main(String ars[]){
         constructor c = new constructor(5,6);// no need to call the method.

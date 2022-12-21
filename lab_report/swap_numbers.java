@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Set;
 public class swap_numbers {
     public static void main(String args[]){
         int a,b,swap;
