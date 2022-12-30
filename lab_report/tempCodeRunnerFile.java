@@ -1,1 +1,2 @@
-Division
+
+        time = sc.nextFloat();

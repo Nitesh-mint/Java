@@ -24,11 +24,10 @@ public class calculator_switchCase{
             int user;
             System.out.println("Enter the option you want to perform: ");
             System.out.println("1) Addition");
-            System.out.println("2) Subtraction");
+            System.out.println("2) Subtraction"); 
             System.out.println("3) Mutliplication");
             System.out.println("4) Division");
             user = sc.nextInt();
-            // System.out.println("5) Exit");
             System.out.println("Enter two numbers :");
             num1 = sc.nextInt();
             num2 = sc.nextInt();
