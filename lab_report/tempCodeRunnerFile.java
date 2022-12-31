@@ -1,2 +1,1 @@
-
-        time = sc.nextFloat();
+0

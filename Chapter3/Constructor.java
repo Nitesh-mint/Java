@@ -6,8 +6,6 @@ class Const{
         System.out.println(name);
     }
 }
-
-
 public class Constructor {
     public static void main(String args[]){
         
