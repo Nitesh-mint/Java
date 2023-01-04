@@ -1,12 +1,13 @@
 public class bubblesort {
     public static void main(String[] args) {
-        int arr[] = {5,7,8,1,2,0};
+        int arr[] = {5,9,8,1,2,0};
         for(int i=0;i<arr.length;i++){
-                if(arr[i]>arr[i+1]){
-                    int swap;
-                    swap = arr[i];
-                    arr[i] = arr[i+1];
-                    arr[i+1] = swap;
+                for(int j=1;j<arr.length-i;j++){
+                    if(arr[j-1]>arr[j]){
+                        int swap = arr[j-1];
+                        arr[j-1] =  arr[j];
+                        arr[j] = swap;
+                    }
                 }
         }
         for(int i=0;i<arr.length;i++){
