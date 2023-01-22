@@ -3,7 +3,7 @@ public class interthread {
        final Object sharedObject = new Object();
        Thread thread1 = new Thread(new Runnable() {
           @Override
-          public void run() {
+            public void run() {
              synchronized (sharedObject) {
                 try {
                    System.out.println("Thread 1: Waiting for thread 2 to notify me.");
@@ -13,16 +13,16 @@ public class interthread {
                    e.printStackTrace();
                 }
              }
-          }
+          } 
        });
  
-       Thread thread2 = new Thread(new Runnable() {
+        Thread thread2 = new Thread(new Runnable() {
           @Override
           public void run() {
-             synchronized (sharedObject) {
+            synchronized (sharedObject) {
                 System.out.println("Thread 2: Notifying thread 1.");
                 sharedObject.notify();
-             }
+            }
           }
        });
  
