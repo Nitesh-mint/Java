@@ -1,4 +1,5 @@
 public class InterThread {
+    // adding a comment
     public static void main(String[] args) {
         Object obj = new Object();
 
